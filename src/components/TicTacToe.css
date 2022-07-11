@@ -1,0 +1,43 @@
+.game-board {
+    background-color: blueviolet;
+    display: grid;
+    place-items: center;
+    gap: 2px;
+    width: fit-content;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+    border-radius: 20px;
+}
+
+.game-board div {
+    background-color: coral;
+    color: blueviolet;
+    border: blueviolet solid 2px;
+    display: grid;
+    place-items: center;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 20px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.game-board div:hover {
+    background-color: lightgray;
+    
+}
+
+button {
+    border-radius: 10px;
+    font-size: 14pt;
+    background-color: blueviolet;
+    color: coral;
+    font-weight: bold;
+    width: 100px;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+

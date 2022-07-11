@@ -1,0 +1,27 @@
+.score-board-root {
+    font-size: 30pt;
+    background-color: blueviolet;
+    display: block;
+    color: coral;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 460px;
+    margin: auto;
+    border-radius: 20px;
+    border: solid coral 3px;
+    margin-bottom: .25em;
+    padding: 10px;
+}
+
+.players {
+    font-size: 22pt;
+    display: flex;
+    margin: auto;
+    width: fit-content;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.scores {
+    font-size: 24pt;
+}
